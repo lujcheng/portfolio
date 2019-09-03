@@ -6,7 +6,7 @@ class Skills extends Component {
       <span> 
         <div>
           <h3>Web Front End</h3>
-          
+          <i class="fab fa-react">React</i>
         </div>
         <div>
           <h3>Web Back End</h3>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/_header'
 import Banner from './components/_banner'
 import About from './components/About'
+import Skills from './components/Skills'
 import './App.css';
 
 
@@ -14,6 +15,7 @@ class App extends Component {
         </div>
         <Banner />
         <About />
+        <Skills />
       </div>
     );
   }
