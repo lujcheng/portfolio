@@ -16,6 +16,7 @@ class Skills extends Component {
         </div>
         <div>
           <h3>Languages</h3>
+          <i class="fab fa-js"></i>
         </div>
         <div>
           <h3>Source Control Management</h3>
