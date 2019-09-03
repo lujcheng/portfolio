@@ -1,23 +1,28 @@
 import React, { Component } from 'react'
 
-class About extends Component {
+class Skills extends Component {
   render () {
     return (
       <span> 
-        <p>
-          My story starts in another industry, helping people heal their bodies.
-        </p>
-        <img src='' alt='rehab animation' />
-        <p>
-          I felt something was missing in my career and searched for something different.
-        </p>
-        <img src='' alt='black hole?' />
-        <p>
-          more...
-        </p>
+        <div>
+          <h3>Web Front End</h3>
+          
+        </div>
+        <div>
+          <h3>Web Back End</h3>
+        </div>
+        <div>
+          <h3>Databases</h3>
+        </div>
+        <div>
+          <h3>Languages</h3>
+        </div>
+        <div>
+          <h3>Source Control Management</h3>
+        </div>
       </span>
     )
   }
 }
 
-export default About
+export default Skills
