@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Hml from '../icons/html'
 class Skills extends Component {
   render () {
     return (
@@ -29,7 +28,7 @@ class Skills extends Component {
           <h3>Languages</h3>
           <img src='./javascript-original.svg' className='icon' alt='javascript' />
           <img src='./html5-original.svg' className='icon' alt= 'html5' />
-          <img src='./css.svg' className='icon' alt='CSS' />
+          <img src='./css3-original.svg' className='icon' alt='CSS' />
         </div>
         <div>
           <h3>Source Control Management</h3>
