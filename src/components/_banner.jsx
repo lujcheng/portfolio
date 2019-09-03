@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Banner extends Component {
   render () {
     return (
-      <> 
-        <img src='../../public/ebrastij.svg' />
-      </>
+      <span> 
+        <img src='./ebrastij.svg' width='500px' height='500px' />
+      </span>
     )
   }
 }
