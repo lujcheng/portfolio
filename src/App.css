@@ -23,18 +23,17 @@
   height: 200px;
 }
 
-svg {
-  .col-obj {
+svg .white-obj {
     stroke: #000;
     stroke-width: 1;
     stroke-dasharray: 100px;
     stroke-dashoffset: 100px;
     animation-name: draw;
     animation-duration: 5s;
-    animation-fill-mode: forwards; // Stay on the last frame
-    animation-iteration-count: 1; // Run only once
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;
     animation-timing-function: linear;
-  }
+
 }
 
 @keyframes draw {
