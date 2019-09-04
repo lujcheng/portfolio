@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './_navbar'
 import Skills from './Skills'
+import Projects from './Projects'
 
 class ProSkiRes extends Component {
   constructor(props) {
@@ -11,7 +12,6 @@ class ProSkiRes extends Component {
   }
   handleOnClick = (e, target) => {
     e.preventDefault()
-    console.log(target)
     this.setState({view: target})
   }
 
@@ -19,6 +19,8 @@ class ProSkiRes extends Component {
     let page
     if (this.state.view === 'skills') {
       page = <Skills />
+    } else if (this.state.view === 'projects') {
+      page = <Projects />
     }
     return (
       <div>
