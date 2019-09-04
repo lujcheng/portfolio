@@ -15,7 +15,7 @@ class Navbar extends Component {
           </a>
         </span>
         <span>
-          <a href='' >
+          <a href='https://resume.creddle.io/resume/8i9hdd0b4la' >
             Resume
           </a>
         </span>
