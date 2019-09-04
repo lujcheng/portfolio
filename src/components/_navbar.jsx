@@ -5,19 +5,19 @@ class Navbar extends Component {
     return (
       <div>
         <span>
-          <p>
+          <a onClick={(e) => {this.props.onClick(e, 'projects')}}>
             Projects
-          </p>
+          </a>
         </span>
         <span>
-          <p>
+          <a onClick={(e) => {this.props.onClick(e, 'skills')}}>
             Skills
-          </p>
+          </a>
         </span>
         <span>
-          <p>
+          <a href='' >
             Resume
-          </p>
+          </a>
         </span>
       </div>
     )

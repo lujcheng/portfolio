@@ -9,8 +9,10 @@ class ProSkiRes extends Component {
       view: 'skills'
     }
   }
-  handleOnClick = () => {
-    this.setState({view: 'skills'})
+  handleOnClick = (e, target) => {
+    e.preventDefault()
+    console.log(target)
+    this.setState({view: target})
   }
 
   render () {
