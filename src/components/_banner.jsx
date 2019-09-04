@@ -5,7 +5,7 @@ import TypistLoop from 'react-typist-loop'
 class Banner extends Component {
   render () {
     return (
-      <span> 
+      <div> 
 
         <img src='./ebrastij.svg' width='500px' height='500px' />
         <span>
@@ -18,7 +18,7 @@ class Banner extends Component {
             ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
           </TypistLoop>
         </span>
-      </span>
+      </div>
     )
   }
 }
