@@ -3,19 +3,19 @@ import React, { Component } from 'react'
 class Navbar extends Component {
   render () {
     return (
-      <div>
+      <div id='navbar'>
         <span>
-          <a onClick={(e) => {this.props.onClick(e, 'projects')}}>
+          <a className='headers' onClick={(e) => {this.props.onClick(e, 'projects')}}>
             Projects
           </a>
         </span>
         <span>
-          <a onClick={(e) => {this.props.onClick(e, 'skills')}}>
+          <a className='headers' onClick={(e) => {this.props.onClick(e, 'skills')}}>
             Skills
           </a>
         </span>
         <span>
-          <a href='https://resume.creddle.io/resume/8i9hdd0b4la' >
+          <a className='headers' href='https://resume.creddle.io/resume/8i9hdd0b4la' >
             Resume
           </a>
         </span>

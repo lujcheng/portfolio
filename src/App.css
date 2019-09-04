@@ -1,6 +1,10 @@
 .App {
   text-align: center; }
 
+#navbar .headers {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px; }
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px; }
