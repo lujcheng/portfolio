@@ -6,9 +6,9 @@ class Banner extends Component {
   render () {
     return (
       <div> 
-
         <img src='./ebrastij.svg' width='500px' height='500px' />
         <span>
+          <p id='name'>Lucas Cheng</p>
           I am a: 
           <TypistLoop interval={3000}>
             {[
