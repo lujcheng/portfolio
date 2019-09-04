@@ -1,0 +1,87 @@
+import React from 'react' 
+
+class Avatar extends React.Component {
+  render() {
+    return (
+      <svg width="512" height="512" id="hexatar-preview" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+      <g id="hexatar-background"><g class="hexatar-base">
+      <rect class="col-obj" x="-0.004" y="0.003" style="fill: transparent;" width="512" height="512"></rect>
+    </g></g>
+    <g id="hexatar-hair-rear"></g>
+    <g id="hexatar-bodies">
+      <g id="hexatar-body">
+        <polygon class="col-obj" style="fill: rgb(253, 231, 200);" points="380.515,465 301,451 301,334 211,334 211,451 131.636,465 94.115,512   418.035,512 "></polygon>
+        <polygon class="shadow-obj" style="fill: rgb(251, 210, 151);" points="380.541,465 301,451 301,334 256,334 256,512 418.062,512 "></polygon>
+        <polygon id="hexatar-neck-control" class="shadow-obj-2x" style="opacity: 0.5; fill: rgb(249, 189, 102);" points="301.054,387.482 255.998,427.693 210.942,384.615  210.942,333.485 301.054,333.485 "></polygon>
+      </g>
+      <g id="hexatar-clothes"><g class="hexatar-base">
+      <path class="white-obj" style="fill:#FFFFFF;" d="M305.22,511.994h-98.984v-42.759c0,0,23.37,11.976,49.769,11.976 s49.215-11.976,49.215-11.976V511.994z"></path>
+      <path class="col-obj" style="fill: rgb(3, 15, 129);" d="M129.243,464.994l-37.084,47h136.667v-51.526l-32.076-25.152L129.243,464.994z M382.755,464.994l-67.474-29.678l-31.998,25.087v51.582l-0.014,0.009h136.571L382.755,464.994z"></path>
+      <path class="shadow-obj" style="opacity: 0.4; fill: rgb(2, 9, 79);" d="M92.159,511.994L140.836,512l-11.37-47.006L92.159,511.994z M383.147,464.994L372.426,512l48.028-0.006L383.147,464.994z"></path>
+      <path class="shadow-obj-2x" style="fill: rgb(1, 3, 29);" d="M211.014,411.456l-14.264,23.861l-1.127,35.071l33.203-9.919l-17.855-34.772 L211.014,411.456z M301.023,411.456v14.445l-17.741,34.502l34.716,9.983l-2.718-35.071L301.023,411.456z"></path>
+    </g></g>
+    </g>
+    <g id="hexatar-faces">
+      <g id="hexatar-ears"><g class="hexatar-base">
+      <g class="hexatar-ears-right"> 	<polygon class="col-obj" style="fill: rgb(253, 231, 200);" points="172.639,176.555 172.639,243.147 154.47,251.417 138.743,242.769  115.596,187.997 141.602,155.736"></polygon> 	<polygon class="shadow-obj" style="fill: rgb(251, 210, 151);" points="143.639,169.144 127.136,189.615 146.602,235.678 154.893,240.237  172.639,231.856 172.639,188.018"></polygon>
+      </g>
+      <g class="hexatar-ears-left"> 	<polygon class="shadow-obj" style="fill: rgb(251, 210, 151);" points="339.621,243.147 339.621,176.555 369.839,155.736 395.845,187.997  373.552,240.749 356.971,251.417"></polygon> 	<polygon class="shadow-obj-2x" style="fill: rgb(249, 189, 102);" points="367.874,169.233 339.621,188.383 339.621,232.942 356.246,239.992  365.543,234.011 384.305,189.615"></polygon>
+      </g>
+    </g></g>
+      <g id="hexatar-face"><g class="hexatar-base">
+      <polygon class="col-obj" style="fill: rgb(253, 231, 200);" points="256.005,7.17 153.605,71.355 153.605,291.893 216.444,386.05  248.348,386.05 296.385,386.05 358.404,291.893 358.404,71.355"></polygon>
+      <polygon class="shadow-obj" style="fill: rgb(251, 210, 151);" points="256.006,7.17 256.005,386.05 264.637,386.05 296.385,386.05  358.404,291.893 358.405,71.355"></polygon>
+    </g></g>
+      <g id="hexatar-mouth"><g class="hexatar-base">
+      <polygon class="col-obj" style="fill: rgb(223, 144, 129);" points="220.382,310.439 292.295,310.439 275.79,322.284 236.887,322.284"></polygon>
+      <polygon class="shadow-obj" style="fill: rgb(213, 108, 88);" points="256.219,303.468 245.61,297.601 211.196,310.487 301.481,310.487  266.729,297.491"></polygon>
+    </g></g>
+      <g id="hexatar-beard"></g>
+      <g id="hexatar-mustache"></g>
+      <g id="hexatar-nose"><g class="hexatar-base">
+      <polygon class="shadow-obj" style="fill: rgb(251, 210, 151);" points="271.118,238.727 261.69,180.775 250.312,180.775 240.883,238.727  236.032,238.727 231.425,252.463 237.569,257.069 240.677,256.214 249.857,266.281 256.001,266.281 262.145,266.281  271.325,256.214 274.433,257.069 280.577,252.463 275.969,238.727"></polygon>
+      <polygon class="shadow-obj-2x" style="fill: rgb(249, 189, 102);" points="271.118,238.727 261.69,180.775 256.001,180.775 256.001,266.281  262.145,266.281 271.325,256.214 274.433,257.069 280.577,252.463 275.969,238.727"></polygon>
+    </g></g>
+      <g id="hexatar-eyeGroup">
+        <g id="hexatar-eye"><g class="hexatar-base">
+      <g class="hexatar-eye-right">
+        <path class="white-obj" style="fill:#FFFFFF;" d="M231.23,202.269c0,0-2.541-10.22-3.353-11.487 c-17.807-4.397-36.478,0.708-37.813,1.264c-1.335,0.556-3.938,4.65-3.938,4.65s9.874,6.452,24.933,6.452 c15.059,0,17.752-1.099,17.752-1.099S229.801,203.423,231.23,202.269z"></path>
+        <path class="shadow-obj" style="opacity: 0.3; fill: rgb(0, 0, 0);" d="M222.049,193.384c0.055-1.111-0.085-2.185-0.377-3.198 l-6.566-1.799l-11.987,0.925c-0.379,0.965-0.617,2.003-0.672,3.095c-0.27,5.413,3.899,10.019,9.312,10.289 C217.173,202.966,221.78,198.797,222.049,193.384z"></path>
+        <circle class="col-obj" style="fill: rgb(17, 17, 17);" cx="212.56" cy="193.082" r="4.588"></circle>
+        <circle class="white-obj" style="fill:#FFFFFF;" cx="208.351" cy="195.851" r="2.854"></circle>
+        <path class="hair-col" style="fill: rgb(66, 66, 66);" d="M229.646,190.345c-16.498-3.85-31.796-1.94-39.838,0.65 c-2.876,3.854-3.681,5.701-3.681,5.701l3.898-3.898c0,0,18.672-6.249,37.909-1.302c0.66,2.748,2.724,9.819,2.724,9.819 S229.82,193.151,229.646,190.345z"></path>
+        <path class="skin-col" style="fill: rgb(249, 189, 102);" d="M230.65,188.957c0,0-18.546-10.102-41.812-0.561 C213.313,182.318,230.65,188.957,230.65,188.957z"></path>
+      </g>
+      <g class="hexatar-eye-left">
+        <path class="white-obj" style="fill:#FFFFFF;" d="M281.823,202.269c0,0,2.541-10.22,3.353-11.487 c17.807-4.397,36.478,0.708,37.813,1.264c1.335,0.556,3.938,4.65,3.938,4.65s-9.874,6.452-24.933,6.452 s-17.752-1.099-17.752-1.099S283.252,203.423,281.823,202.269z"></path>
+        <path class="shadow-obj" style="opacity: 0.3; fill: rgb(0, 0, 0);" d="M291.004,193.384c-0.055-1.111,0.085-2.185,0.376-3.198 l6.566-1.799l11.987,0.925c0.379,0.965,0.617,2.003,0.672,3.095c0.27,5.413-3.899,10.019-9.312,10.289 C295.88,202.966,291.274,198.797,291.004,193.384z"></path>
+        <circle class="col-obj" style="fill: rgb(17, 17, 17);" cx="300.493" cy="193.082" r="4.588"></circle>
+        <circle class="white-obj" style="fill:#FFFFFF;" cx="296.751" cy="195.851" r="2.854"></circle>
+        <path class="hair-col-2x" style="fill: rgb(40, 40, 40);" d="M282.397,201.315c0,0,2.064-7.071,2.724-9.819 c19.236-4.946,37.909,1.302,37.909,1.302l3.898,3.898c0,0-0.805-1.847-3.681-5.701c-8.042-2.59-23.341-4.5-39.838-0.65 C283.233,193.151,282.397,201.315,282.397,201.315z"></path>
+        <path class="skin-col-2x" style="fill: rgb(247, 168, 53);" d="M324.215,188.396c-23.266-9.541-41.812,0.561-41.812,0.561 S299.74,182.318,324.215,188.396z"></path>
+      </g>
+    </g></g>
+        <g id="hexatar-eyebrows"><g class="hexatar-base">
+      <g class="hexatar-eyebrows-right"> 	<polygon class="col-obj" style="fill: rgb(66, 66, 66);" points="178.292,177.285 200.569,171.534 234.042,178.497 235.716,172.631  232.296,167.976 198.887,166.233"></polygon>
+      </g>
+      <g class="hexatar-eyebrows-left"> 	<polygon class="col-obj" style="fill: rgb(66, 66, 66);" points="334.47,177.285 312.194,171.534 278.721,178.497 277.046,172.631  280.466,167.976 313.875,166.233"></polygon> 	<polygon class="shadow-obj" style="opacity: 0.4; fill: rgb(40, 40, 40);" points="334.47,177.285 312.194,171.534 278.721,178.497 277.046,172.631  280.466,167.976 313.875,166.233"></polygon>
+      </g>
+    </g></g>	
+      </g>
+      <g id="hexatar-hair-front"><g class="element-front">
+        <polygon class="col-obj" style="fill: rgb(66, 66, 66);" points="256.211,6.901 153.602,70.984 153.602,175.3 172.582,175.3  172.582,80.4 309.162,106.291 339.49,73.22 339.49,175.3 358.403,175.3 358.403,70.984"></polygon>
+        <polygon class="col-obj hair-ext" style="fill: rgb(66, 66, 66); display: block;" points="139.876,39.763 154.468,72.834 256.211,6.901"></polygon>
+        <polygon class="shadow-obj" style="opacity: 0.4; fill: rgb(40, 40, 40);" points="256.211,6.901 256.211,96.253 309.162,106.291 339.49,73.22  339.49,175.3 358.403,175.3 358.403,70.984"></polygon>
+      </g></g>
+      <g id="hexatar-hat"></g>
+      <g id="hexatar-eyeglasses"></g>
+    </g>
+    <desc>Avatar generated from Hexatar.com - created with Snap</desc><text transform="matrix(1 0 0 1 0 528)" font-size="12">Avatar generated from Hexatar.com</text>
+    </svg>
+    )
+
+  }
+  
+}
+
+export default Avatar
