@@ -20,7 +20,7 @@ class ProSkiRes extends Component {
     }
     return (
       <div>
-      <Navbar onClick={handleOnClick} />
+      <Navbar onClick={this.handleOnClick} />
       {page}
       </div>
     )
