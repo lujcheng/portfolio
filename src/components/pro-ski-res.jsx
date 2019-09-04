@@ -3,7 +3,8 @@ import Navbar from './_navbar'
 import Skills from './Skills'
 
 class ProSkiRes extends Component {
-  constructor() {
+  constructor(props) {
+    super(props)
     this.state = {
       view: 'skills'
     }
@@ -13,13 +14,15 @@ class ProSkiRes extends Component {
   }
 
   render () {
+    let page
+    if (this.state.view === 'skills') {
+      page = <Skills />
+    }
     return (
-      <span> 
-        <img src='./ebrastij.svg' width='500px' height='500px' />
-        <span>
-          I am a: Developer
-        </span>
-      </span>
+      <div>
+      <Navbar onClick={handleOnClick} />
+      {page}
+      </div>
     )
   }
 }
