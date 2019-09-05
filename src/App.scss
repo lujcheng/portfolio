@@ -3,6 +3,21 @@
 .App {
   text-align: center;
 }
+
+.typing {
+  padding-left: 4em;
+  width: 100%;
+  h3 {
+    margin: 0;
+  }
+  div {
+    margin: 0;
+  }
+}
+.padded {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
 .dropdown {
   position: fixed;
   top: 0;
@@ -64,15 +79,18 @@
 }
 
 #about {
-  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 #navbar {
-
-  
   .headers {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
   }
+}
+#skills {
+  padding-left: 4em;
+  padding-right: 4em;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -90,7 +108,7 @@
 }
 
 .icon {
-  max-height: 8em;
+  max-height: 6em;
 }
 
 #name {

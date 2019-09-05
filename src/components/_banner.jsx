@@ -9,7 +9,7 @@ class Banner extends Component {
         <div className='row'>
           <img src='./ebrastij.svg' className='col-md-6 col-sm-12'/>
           <div className='col-md-6 col-sm-12 row align-self-center'>
-            <div className=''>
+            <div className='typing'>
               <h3 id='name' className='row'>Lucas Cheng</h3>
               <div className='row'> 
                 <p>I am a: </p>

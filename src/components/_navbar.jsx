@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Navbar extends Component {
   render () {
     return (
-      <div id='navbar' className='row'>
+      <div id='navbar' className='row justify-content-around'>
         <span className='col-4'>
           <a className='headers' onClick={(e) => {this.props.onClick(e, 'projects')}}>
             Projects
