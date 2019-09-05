@@ -1,6 +1,9 @@
 .App {
   text-align: center; }
 
+.drop-down-menu {
+  opacity: 0.3; }
+
 #banner {
   width: 100%;
   padding: 1em; }
@@ -44,8 +47,7 @@
   font-size: large; }
 
 .icon {
-  width: 200px;
-  height: 200px; }
+  max-height: 8em; }
 
 #name {
   stroke: #000;

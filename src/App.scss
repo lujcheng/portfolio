@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.drop-down-menu {
+  opacity: 0.3;
+}
+
 #banner {
   width: 100%;
   padding: 1em;
@@ -64,8 +68,7 @@
 }
 
 .icon {
-  width: 200px;
-  height: 200px;
+  max-height: 8em;
 }
 
 #name {
