@@ -3,9 +3,27 @@
 .App {
   text-align: center;
 }
-
-.drop-down-menu {
+.dropleft {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.dropdown-toggle:hover {
+  opacity: 0.6;
+}
+.dropdown-toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.dropdown-menu {
   opacity: 0.3;
+  a {
+    opacity: 1;
+    .dropdown-item {
+      opacity: 1;
+    }
+  }
 }
 
 #banner {
@@ -57,7 +75,6 @@
 }
 
 .App-header {
-  background-color: #222;
   height: 2em;
   padding: 0.5em;
   color: white;
