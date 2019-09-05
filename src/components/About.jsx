@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class About extends Component {
   render () {
     return (
-      <span> 
+      <div id='about'> 
         <p>
           My story starts in another industry, helping people heal their bodies.
         </p>
@@ -15,7 +15,7 @@ class About extends Component {
         <p>
           more...
         </p>
-      </span>
+      </div>
     )
   }
 }

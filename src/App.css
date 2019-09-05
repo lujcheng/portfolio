@@ -34,9 +34,13 @@
         #banner span span .Typist .Cursor {
           flex-wrap: nowrap; }
 
-#navbar .headers {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px; }
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  #navbar .headers {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
