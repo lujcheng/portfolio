@@ -78,16 +78,36 @@ class Skills extends Component {
         <div className='row'>
           <h4 className='col-5  padded'>Languages</h4>
           <div className='row container justify-content-start'>
-            <img className='icon' src='./javascript-original.svg'  alt='javascript' />
-            <img className='icon' src='./html5-original.svg'  alt= 'html5' />
-            <img className='icon' src='./css3-original.svg'  alt='CSS' />
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./javascript-original.svg'  alt='javascript' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./html5-original.svg'  alt= 'html5' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./css3-original.svg'  alt='CSS' />
+               
+            </div>
           </div>
         </div>
         <div className='row'>
           <h4 className='col-5  padded'>Source Control Management</h4>
           <div className='row container justify-content-start'>
-            <img className='icon' src='./git-original.svg'  alt='git' />
-            <img className='icon' src='./github-original.svg'  alt='github' />
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./git-original.svg'  alt='git' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./github-original.svg'  alt='github' />
+               
+            </div>
           </div>
         </div>
       </div>
