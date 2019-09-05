@@ -3,37 +3,37 @@ class Skills extends Component {
   render () {
     return (
       <div className='container'> 
-        <div>
-          <h3>Web Front End</h3>
-          <img src='./react-original.svg' className='icon' alt='react' />
-          <img src='./jquery-original.svg' className='icon' alt='jquery' />
-          <img src='./sass-original.svg' className='icon' alt='sass' /> 
+        <div className='row justify-content-around'>
+          <h3 className='col-12'>Web Front End</h3>
+          <img className='col-1 icon' src='./react-original.svg'  alt='react' />
+          <img className='col-1 icon' src='./jquery-original.svg'  alt='jquery' />
+          <img className='col-1 icon' src='./sass-original.svg'  alt='sass' /> 
         </div>
-        <div>
-          <h3>Web Back End</h3>
-          <img src='./nodejs-original.svg' className='icon' alt='node' />
-          <img src='./rails-original-wordmark.svg' className='icon' alt='rails' />
-          <img src='./express-original.svg' className='icon' alt='express' />
-          <img src='./socket-io.svg' className='icon' alt='socket-io'  />
-          <img src='./docker-original.svg' className='icon' alt='docker' /> 
-          <img src='./mocha-plain.svg' className='icon' alt='mocha' />
-          <img src='./babel-original.svg' className='icon' alt='babel' /> 
+        <div className='row justify-content-around'>
+          <h3 className='col-1 icon2'>Web Back End</h3>
+          <img className='col-1 icon' src='./nodejs-original.svg'  alt='node' />
+          <img className='col-1 icon' src='./rails-original-wordmark.svg'  alt='rails' />
+          <img className='col-1 icon' src='./express-original.svg'  alt='express' />
+          <img className='col-1 icon' src='./socket-io.svg'  alt='socket-io'  />
+          <img className='col-1 icon' src='./docker-original.svg'  alt='docker' /> 
+          <img className='col-1 icon' src='./mocha-plain.svg'  alt='mocha' />
+          <img className='col-1 icon' src='./babel-original.svg'  alt='babel' /> 
         </div>
-        <div>
-          <h3>Databases</h3>
-          <img src='./postgresql-original.svg' className='icon' alt='psql' />
-          <img src='./mongodb-original.svg' className='icon' alt='mongodb' />
+        <div className='row justify-content-around'>
+          <h3 className='col-1 icon2'>Databases</h3>
+          <img className='col-1 icon' src='./postgresql-original.svg'  alt='psql' />
+          <img className='col-1 icon' src='./mongodb-original.svg'  alt='mongodb' />
         </div>
-        <div>
-          <h3>Languages</h3>
-          <img src='./javascript-original.svg' className='icon' alt='javascript' />
-          <img src='./html5-original.svg' className='icon' alt= 'html5' />
-          <img src='./css3-original.svg' className='icon' alt='CSS' />
+        <div className='row justify-content-around'>
+          <h3 className='col-1 icon2'>Languages</h3>
+          <img className='col-1 icon' src='./javascript-original.svg'  alt='javascript' />
+          <img className='col-1 icon' src='./html5-original.svg'  alt= 'html5' />
+          <img className='col-1 icon' src='./css3-original.svg'  alt='CSS' />
         </div>
-        <div>
-          <h3>Source Control Management</h3>
-          <img src='./git-original.svg' className='icon' alt='git' />
-          <img src='./github-original.svg' className='icon' alt='github' />
+        <div className='row justify-content-around'>
+          <h3 className='col-1 icon2'>Source Control Management</h3>
+          <img className='col-1 icon' src='./git-original.svg'  alt='git' />
+          <img className='col-1 icon' src='./github-original.svg'  alt='github' />
         </div>
       </div>
     )
