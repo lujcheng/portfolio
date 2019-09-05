@@ -3,7 +3,7 @@
 .App {
   text-align: center;
 }
-.dropleft {
+.dropdown {
   position: fixed;
   top: 0;
   right: 0;
@@ -21,11 +21,13 @@
   right: 0;
 }
 .dropdown-menu {
-  opacity: 0.3;
-  .dropdown-item {
-    opacity: 1;
-    color: black;
-  }
+  background: rgba(0, 0, 0, 0.15) !important;
+  z-index: 10;
+}
+
+.dropdown-item {
+  opacity: 1;
+  color: black;
 }
 
 #banner {

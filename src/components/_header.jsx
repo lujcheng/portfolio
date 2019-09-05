@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Header extends Component {
   render () {
     return (
-      <div className="dropleft">
+      <div className="dropdown">
         <button type="button" className="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           hamburger
         </button>
