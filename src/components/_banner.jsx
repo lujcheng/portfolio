@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Typist from 'react-typist'
+import Typist from 'react-typist-updated'
 import TypistLoop from 'react-typist-loop'
 
 class Banner extends Component {
@@ -11,13 +11,18 @@ class Banner extends Component {
           <p id='name'>Lucas Cheng</p>
           <span> 
             <p>I am a: </p>
-            <TypistLoop interval={3000}>
+            <TypistLoop interval={1000}>
               
               {[
                 'Problem Solver',
                 'Developer',
                 'Good Person',
-              ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
+              ].map(text =>
+                <Typist  avgTypingSpeed={40} key={text} startDelay={750}>{text}
+                <Typist.Delay ms={750} />
+                <Typist.Backspace count={text.length}/>
+                </Typist>
+              )}
             </TypistLoop>
           </span>
         </span>

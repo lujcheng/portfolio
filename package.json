@@ -9,8 +9,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "0.9.x",
-    "react-typist": "^2.0.5",
-    "react-typist-loop": "0.0.5"
+    "react-typist-loop": "0.0.5",
+    "react-typist-updated": "^2.0.6"
   },
   "devDependencies": {},
   "scripts": {
