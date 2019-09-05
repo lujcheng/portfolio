@@ -1,6 +1,10 @@
 .App {
   text-align: center; }
 
+#banner {
+  width: 100%;
+  display: flex; }
+
 #navbar .headers {
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px; }
