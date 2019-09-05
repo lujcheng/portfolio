@@ -8,6 +8,10 @@
   top: 0;
   right: 0;
 }
+.dropdown-toggle::before {
+  opacity: 0;
+}
+
 .dropdown-toggle:hover {
   opacity: 0.6;
 }
@@ -18,11 +22,9 @@
 }
 .dropdown-menu {
   opacity: 0.3;
-  a {
+  .dropdown-item {
     opacity: 1;
-    .dropdown-item {
-      opacity: 1;
-    }
+    color: black;
   }
 }
 

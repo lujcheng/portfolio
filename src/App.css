@@ -6,6 +6,9 @@
   top: 0;
   right: 0; }
 
+.dropdown-toggle::before {
+  opacity: 0; }
+
 .dropdown-toggle:hover {
   opacity: 0.6; }
 
@@ -16,10 +19,9 @@
 
 .dropdown-menu {
   opacity: 0.3; }
-  .dropdown-menu a {
-    opacity: 1; }
-    .dropdown-menu a .dropdown-item {
-      opacity: 1; }
+  .dropdown-menu .dropdown-item {
+    opacity: 1;
+    color: black; }
 
 #banner {
   width: 100%;
