@@ -4,7 +4,7 @@ class Skills extends Component {
     return (
       <div className='container' id='skills'> 
         <div className='row'>
-          <h3 className='col-5 padded'>Web Front End</h3>
+          <h4 className='col-5 padded'>Web Front End</h4>
           <div className='row container justify-content-start'>
             <img className='col-3 icon' src='./react-original.svg'  alt='react' />
             <img className='col-3 icon' src='./jquery-original.svg'  alt='jquery' />
@@ -12,7 +12,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h3 className='col-5  padded'>Web Back End</h3>
+          <h4 className='col-5  padded'>Web Back End</h4>
           <div className='row container justify-content-start'>
 
             <img className='col-3 icon' src='./nodejs-original.svg'  alt='node' />
@@ -25,14 +25,14 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h3 className='col-5  padded'>Databases</h3>
+          <h4 className='col-5  padded'>Databases</h4>
           <div className='row container justify-content-start'>
             <img className='col-3 icon' src='./postgresql-original.svg'  alt='psql' />
             <img className='col-3 icon' src='./mongodb-original.svg'  alt='mongodb' />
           </div>
         </div>
         <div className='row'>
-          <h3 className='col-5  padded'>Languages</h3>
+          <h4 className='col-5  padded'>Languages</h4>
           <div className='row container justify-content-start'>
             <img className='col-3 icon' src='./javascript-original.svg'  alt='javascript' />
             <img className='col-3 icon' src='./html5-original.svg'  alt= 'html5' />
@@ -40,7 +40,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h3 className='col-5  padded'>Source Control Management</h3>
+          <h4 className='col-5  padded'>Source Control Management</h4>
           <div className='row container justify-content-start'>
             <img className='col-3 icon' src='./git-original.svg'  alt='git' />
             <img className='col-3 icon' src='./github-original.svg'  alt='github' />
