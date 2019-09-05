@@ -12,25 +12,21 @@
     width: 100%;
     margin: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline; }
     #banner span #name {
       text-align: left;
       width: 100%; }
     #banner span span {
-      margin: 0;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      flex-wrap: nowrap; }
+      margin: 0; }
       #banner span span p {
-        margin: 0; }
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+        flex: 1; }
       #banner span span .Typist {
-        margin-left: 0.5em;
-        display: flex;
-        flex-wrap: nowrap; }
+        flex: 1; }
 
 #navbar .headers {
   font-family: 'Times New Roman', Times, serif;
