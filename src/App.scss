@@ -7,8 +7,16 @@
 #banner {
   width: 100%;
   display: flex;
+  align-content: space-between;
   img {
-
+    width: 100%;
+    align-content: center;
+  }
+  span {
+    width: 100%;
+    p {
+      text-align: center;
+    }
   }
 }
 
