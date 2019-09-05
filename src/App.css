@@ -26,13 +26,9 @@
 #about {
   padding: 1em; }
 
-#navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly; }
-  #navbar .headers {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em; }
+#navbar .headers {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
