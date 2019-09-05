@@ -4,7 +4,7 @@ class Skills extends Component {
     return (
       <div className='container' id='skills'> 
         <div className='row'>
-          <h4 className='col-5 padded'>Web Front End</h4>
+          {/* <h4 className='col-5 padded'>Web Front End</h4> */}
           <div className='row container justify-content-start'>
             <div className='container icon-bg'>
               <div className='hexagon float-left'></div>
@@ -21,8 +21,8 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Web Back End</h4>
-          <div className='row container justify-content-start'>
+          {/* <h4 className='col-5  padded'>Web Back End</h4> */}
+          <div className='row container justify-content-start grid'>
             <div className='container icon-bg'>
               <div className='hexagon float-left'></div>
               <img className='icon' src='./nodejs-original.svg'  alt='node' />
@@ -61,7 +61,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Databases</h4>
+          {/* <h4 className='col-5  padded'>Databases</h4> */}
           <div className='row container justify-content-start'>
             <div className='container icon-bg'>
               <div className='hexagon float-left'></div>
@@ -76,7 +76,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Languages</h4>
+          {/* <h4 className='col-5  padded'>Languages</h4> */}
           <div className='row container justify-content-start'>
             <div className='container icon-bg'>
               <div className='hexagon float-left'></div>
@@ -96,7 +96,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Source Control Management</h4>
+          {/* <h4 className='col-5  padded'>Source Control Management</h4> */}
           <div className='row container justify-content-start'>
             <div className='container icon-bg'>
               <div className='hexagon float-left'></div>

@@ -151,3 +151,9 @@
   width: 100px;
   height: 100px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-gap: 0.1em;
+}
