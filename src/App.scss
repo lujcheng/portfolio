@@ -14,11 +14,31 @@
   }
   span {
     width: 100%;
+    margin: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    p {
-      text-align: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    #name {
+      text-align: left;
+      width: 100%
+    }
+    span {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      p {
+        margin: 0;
+      }
+      .Typist {
+        margin-left: 0.5em;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
     }
   }
 }
