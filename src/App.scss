@@ -14,10 +14,7 @@
   span {
     width: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
+
     #name {
       text-align: left;
       width: 100%
@@ -27,17 +24,12 @@
       p {
         margin: 0;
         padding: 0;
-        width: fit-content;
         flex: 1;
       }
       .Typist {
         width: 100%;
         flex: 1;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: baseline;
         .Cursor {
-          flex-wrap: nowrap;
         }
       }
     }

@@ -8,25 +8,27 @@ class Banner extends Component {
       <div id='banner' className='container'> 
         <div className='row'>
           <img src='./ebrastij.svg' className='col-md-6 col-sm-12'/>
-          <span className='col-md-6 col-sm-12'>
-            <h3 id='name'>Lucas Cheng</h3>
-            <span> 
-              <p>I am a: </p>
-              <TypistLoop interval={1000}>
-                
-                {[
-                  'Problem Solver',
-                  'Developer',
-                  'Good Person',
-                ].map(text =>
-                  <Typist  avgTypingSpeed={40} key={text} startDelay={1000}>{text}
-                  <Typist.Delay ms={1000} />
-                  <Typist.Backspace count={text.length}/>
-                  </Typist>
-                )}
-              </TypistLoop>
-            </span>
-          </span>
+          <div className='col-md-6 col-sm-12 row align-self-center'>
+            <div className=''>
+              <h3 id='name' className='row'>Lucas Cheng</h3>
+              <div className='row'> 
+                <p>I am a: </p>
+                <TypistLoop interval={1000}>
+                  
+                  {[
+                    'Problem Solver',
+                    'Developer',
+                    'Good Person',
+                  ].map(text =>
+                    <Typist  avgTypingSpeed={40} key={text} startDelay={1000}>{text}
+                    <Typist.Delay ms={1000} />
+                    <Typist.Backspace count={text.length}/>
+                    </Typist>
+                  )}
+                </TypistLoop>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )

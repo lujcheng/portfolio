@@ -9,11 +9,7 @@
     align-content: center; }
   #banner span {
     width: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline; }
+    margin: 0; }
     #banner span #name {
       text-align: left;
       width: 100%; }
@@ -22,16 +18,10 @@
       #banner span span p {
         margin: 0;
         padding: 0;
-        width: fit-content;
         flex: 1; }
       #banner span span .Typist {
         width: 100%;
-        flex: 1;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: baseline; }
-        #banner span span .Typist .Cursor {
-          flex-wrap: nowrap; }
+        flex: 1; }
 
 #about {
   padding: 1em; }
