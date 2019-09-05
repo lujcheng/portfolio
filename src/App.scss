@@ -1,7 +1,9 @@
 
 
 .App {
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .typing {
@@ -48,7 +50,9 @@
 
 #banner {
   width: 100%;
-  padding: 1em;
+  margin: 0;
+  padding: 0;
+  background: rgba(96, 247, 169, 0.2);
   img {
     width: 100%;
     align-content: center;
@@ -82,7 +86,14 @@
   padding-left: 4em;
   padding-right: 4em;
 }
+#proskires {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 #navbar {
+  width: 100%;
+  background: rgba(26, 31, 12, 0.2);
   .headers {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -91,20 +102,6 @@
 #skills {
   padding-left: 4em;
   padding-right: 4em;
-}
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  height: 2em;
-  padding: 0.5em;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 .icon {

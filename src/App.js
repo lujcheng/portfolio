@@ -10,9 +10,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Banner />
+        <div id='banner'>
+          <Banner />
+        </div>
         <About />
-        <ProSkiRes />
+        <div id='proskires'>
+          <ProSkiRes />
+        </div>
           <Header />
       </div>
     );
