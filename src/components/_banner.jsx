@@ -5,7 +5,7 @@ import TypistLoop from 'react-typist-loop'
 class Banner extends Component {
   render () {
     return (
-      <div> 
+      <div id='banner'> 
         <img src='./ebrastij.svg' width='500px' height='500px' />
         <span>
           <p id='name'>Lucas Cheng</p>
