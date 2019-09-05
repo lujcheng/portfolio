@@ -123,7 +123,7 @@
 .icon-bg {
   display: flex;
   align-items: center;
-  margin: 0;
+  margin: 0.1em;
   padding: 0;
   width: 100px;
   height: 100px; }
