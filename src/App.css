@@ -3,6 +3,7 @@
 
 #banner {
   width: 100%;
+  padding: 1em;
   display: flex;
   align-content: space-between; }
   #banner img {
@@ -33,6 +34,9 @@
         align-items: baseline; }
         #banner span span .Typist .Cursor {
           flex-wrap: nowrap; }
+
+#about {
+  padding: 1em; }
 
 #navbar {
   width: 100%;

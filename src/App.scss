@@ -6,6 +6,7 @@
 
 #banner {
   width: 100%;
+  padding: 1em;
   display: flex;
   align-content: space-between;
   img {
@@ -45,7 +46,9 @@
   }
 }
 
-
+#about {
+  padding: 1em;
+}
 #navbar {
   width: 100%;
   display: flex;
