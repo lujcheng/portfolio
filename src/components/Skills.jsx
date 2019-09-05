@@ -6,9 +6,18 @@ class Skills extends Component {
         <div className='row'>
           <h4 className='col-5 padded'>Web Front End</h4>
           <div className='row container justify-content-start'>
-            <img className='col-3 icon' src='./react-original.svg'  alt='react' />
-            <img className='col-3 icon' src='./jquery-original.svg'  alt='jquery' />
-            <img className='col-3 icon' src='./sass-original.svg'  alt='sass' /> 
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon float-left' src='./react-original.svg'  alt='react' />
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='col-3 icon' src='./jquery-original.svg'  alt='jquery' />  
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='col-3 icon' src='./sass-original.svg'  alt='sass' />   
+            </div>
           </div>
         </div>
         <div className='row'>

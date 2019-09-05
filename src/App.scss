@@ -52,7 +52,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  background: rgba(96, 247, 169, 0.2);
+  background: #c4bf62;
   img {
     width: 100%;
     align-content: center;
@@ -104,25 +104,50 @@
   padding-right: 4em;
 }
 
+
+.hexagon {
+  width: 100px;
+  height: 55px;
+  background: #e5bb0a;
+  position: absolute;
+  z-index: 0;
+}
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #e5bb0a;
+}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #e5bb0a;
+}
+
+
 .icon {
-  max-height: 6em;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  padding: 0.4em;
+  text-align: center;
 }
-
-#name {
-    stroke: #000;
-    stroke-width: 1;
-    stroke-dasharray: 100px;
-    stroke-dashoffset: 100px;
-    animation-name: draw;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; 
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
-  }
+.icon-bg {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
 }
