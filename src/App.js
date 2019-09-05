@@ -10,12 +10,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <Header />
-        </div>
         <Banner />
         <About />
         <ProSkiRes />
+          <Header />
       </div>
     );
   }

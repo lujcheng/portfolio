@@ -8,7 +8,7 @@
   top: 0;
   right: 0;
 }
-.dropdown-toggle::before {
+.dropdown-toggle::after {
   opacity: 0;
 }
 
@@ -21,8 +21,9 @@
   right: 0;
 }
 .dropdown-menu {
-  background: rgba(0, 0, 0, 0.15) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
   z-index: 10;
+  border: none;
 }
 
 .dropdown-item {
