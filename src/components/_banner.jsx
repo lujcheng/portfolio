@@ -8,7 +8,7 @@ class Banner extends Component {
       <div id='banner'> 
         <img src='./ebrastij.svg' />
         <span>
-          <p id='name'>Lucas Cheng</p>
+          <h3 id='name'>Lucas Cheng</h3>
           <span> 
             <p>I am a: </p>
             <TypistLoop interval={1000}>
@@ -18,8 +18,8 @@ class Banner extends Component {
                 'Developer',
                 'Good Person',
               ].map(text =>
-                <Typist  avgTypingSpeed={40} key={text} startDelay={750}>{text}
-                <Typist.Delay ms={750} />
+                <Typist  avgTypingSpeed={40} key={text} startDelay={1000}>{text}
+                <Typist.Delay ms={1000} />
                 <Typist.Backspace count={text.length}/>
                 </Typist>
               )}
