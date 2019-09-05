@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 class Skills extends Component {
   render () {
     return (
-      <span> 
+      <div className='container'> 
         <div>
           <h3>Web Front End</h3>
           <img src='./react-original.svg' className='icon' alt='react' />
@@ -35,7 +35,7 @@ class Skills extends Component {
           <img src='./git-original.svg' className='icon' alt='git' />
           <img src='./github-original.svg' className='icon' alt='github' />
         </div>
-      </span>
+      </div>
     )
   }
 }
