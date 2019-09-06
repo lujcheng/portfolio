@@ -15,16 +15,16 @@ export default function Hex() {
       <li>
         <a href="#item2">
           <div class="hexagon">
-            <img src="images/2.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+            <img className='icon' src='./jquery-original.svg'  alt='jquery' />  
+            <div class="overlay">JQuery</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item3">
           <div class="hexagon">
-            <img src="images/3.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+            <img className='icon' src='./sass-original.svg'  alt='sass' />   
+            <div class="overlay">Sass</div>
           </div>
         </a>
       </li>
