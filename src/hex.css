@@ -42,7 +42,6 @@
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
   overflow: hidden;
-  background: #e5bb0a;
 }
 
 #grid li:nth-child(3n+2) {
@@ -130,4 +129,20 @@
   margin: 0 auto;
   top: 50%;
   margin-top: -50%;
+}
+
+.bg-5 {
+  background: #d2b55b
+}
+.bg-4 {
+  background: #f9a602
+}
+.bg-3 {
+  background: #f8de7e
+}
+.bg-2 {
+  background: #Daa520
+}
+.bg-1 {
+  background: #cc7722
 }
