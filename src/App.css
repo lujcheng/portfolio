@@ -48,25 +48,15 @@
   margin: 0;
   padding: 0;
   background: #c4bf62;
-  font-family: 'Comfortaa', cursive; }
-  #banner img {
-    width: 100%;
-    align-content: center; }
-  #banner span {
-    width: 100%;
-    margin: 0; }
-    #banner span #name {
-      text-align: left;
-      width: 100%; }
-    #banner span span {
-      margin: 0; }
-      #banner span span p {
-        margin: 0;
-        padding: 0;
-        flex: 1; }
-      #banner span span .Typist {
-        width: 100%;
-        flex: 1; }
+  font-family: 'Comfortaa', cursive;
+  position: relative; }
+  #banner .container {
+    position: relative;
+    top: 25%; }
+    #banner .container .row img {
+      width: auto;
+      height: 50vh;
+      align-content: center; }
 
 #about {
   font-family: 'Comfortaa', cursive; }

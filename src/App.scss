@@ -56,30 +56,17 @@
   padding: 0;
   background: #c4bf62;
   font-family: 'Comfortaa', cursive;
-  img {
-    width: 100%;
-    align-content: center;
-  }
-  span {
-    width: 100%;
-    margin: 0;
-
-    #name {
-      text-align: left;
-      width: 100%
-    }
-    span {
-      margin: 0;
-      p {
-        margin: 0;
-        padding: 0;
-        flex: 1;
+  position: relative;
+  .container {
+    position: relative;
+    top: 25%;
+    .row {
+      img {
+        width: auto;
+        height: 50vh;
+        align-content: center;
       }
-      .Typist {
-        width: 100%;
-        flex: 1;
-        .Cursor {
-        }
+      div {
       }
     }
   }
