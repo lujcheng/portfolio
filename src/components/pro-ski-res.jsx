@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Navbar from './_navbar'
 import Skills from './Skills'
 import Projects from './Projects'
+import Hex from './hex'
 
 class ProSkiRes extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class ProSkiRes extends Component {
   render () {
     let page
     if (this.state.view === 'skills') {
-      page = <Skills />
+      page = <Hex />
     } else if (this.state.view === 'projects') {
       page = <Projects />
     }

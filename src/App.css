@@ -1,3 +1,4 @@
+@import url(./hex.css);
 .App {
   padding: 0;
   margin: 0;
@@ -83,52 +84,3 @@
 #skills {
   padding-left: 4em;
   padding-right: 4em; }
-
-.hexagon {
-  width: 100px;
-  height: 55px;
-  background: #e5bb0a;
-  position: absolute;
-  z-index: 0; }
-
-.hexagon:before {
-  content: "";
-  position: absolute;
-  top: -25px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 25px solid #e5bb0a; }
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 25px solid #e5bb0a; }
-
-.icon {
-  position: absolute;
-  z-index: 1;
-  width: 100px;
-  padding: 0.9em;
-  text-align: center; }
-
-.icon-bg {
-  display: flex;
-  align-items: center;
-  margin: 0.1em;
-  padding: 0;
-  width: 100px;
-  height: 100px; }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(8, 100px);
-  grid-gap: 0.1em; }
