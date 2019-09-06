@@ -8,6 +8,8 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
+  font-family: 'The Girl Next Door', cursive, Times, serif;
+  font-weight: bold;
 }
 
 #grid li {
@@ -129,6 +131,7 @@
   margin: 0 auto;
   top: 50%;
   margin-top: -50%;
+  font-size: 1em;
 }
 
 .bg-1 {

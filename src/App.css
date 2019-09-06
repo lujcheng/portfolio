@@ -1,4 +1,5 @@
 @import url(./hex.css);
+@import url(https://fonts.googleapis.com/css?family=The+Girl+Next+Door);
 .App {
   padding: 0;
   margin: 0;
@@ -66,17 +67,24 @@
         width: 100%;
         flex: 1; }
 
+#about {
+  font-family: 'Comfortaa', cursive; }
+
 #proskires {
   width: 100%;
+  height: auto;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #5c635f; }
 
 #navbar {
-  width: 100%;
-  background: rgba(26, 31, 12, 0.2); }
+  width: 100%; }
+  #navbar span {
+    text-align: center; }
   #navbar .headers {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em; }
+    font-family: 'The Girl Next Door', cursive, Times, serif;
+    font-size: 2em;
+    color: white; }
 
 #skills {
   padding-left: 4em;
@@ -85,6 +93,7 @@
 #main {
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  height: 100vh; }
   #main .row {
     width: 100%; }
