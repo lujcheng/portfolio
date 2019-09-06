@@ -5,7 +5,7 @@ export default function Hex() {
     <ul id="grid" class="clr">
       <li>
         <a href="#item1">
-          <div class="hexagon">
+          <div class="hexagon bg-1">
 
             <img className='' src='./react-original.svg'  alt='react' />
             <div class="overlay">React</div>
@@ -14,7 +14,7 @@ export default function Hex() {
       </li>
       <li>
         <a href="#item2">
-          <div class="hexagon">
+          <div class="hexagon bg-1">
             <img className='icon' src='./jquery-original.svg'  alt='jquery' />  
             <div class="overlay">JQuery</div>
           </div>
@@ -22,7 +22,7 @@ export default function Hex() {
       </li>
       <li>
         <a href="#item3">
-          <div class="hexagon">
+          <div class="hexagon bg-1">
             <img className='icon' src='./sass-original.svg'  alt='sass' />   
             <div class="overlay">Sass</div>
           </div>
@@ -31,7 +31,8 @@ export default function Hex() {
       <li>
         <a href="#item4">
           <div class="hexagon">
-            <img src="images/4.jpg" alt="Lorem Ipsum"/>
+            <img className='icon' src='./nodejs-original.svg'  alt='node' />
+                
             <div class="overlay"></div>
           </div>
         </a>
