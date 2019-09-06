@@ -83,8 +83,7 @@
 }
 
 #about {
-  padding-left: 4em;
-  padding-right: 4em;
+
 }
 #proskires {
   width: 100%;
@@ -104,7 +103,14 @@
   padding-right: 4em;
 }
 
-
+#main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .row {
+    width: 100%;
+  }
+}
 // .hexagon {
 //   width: 100px;
 //   height: 55px;

@@ -1,7 +1,7 @@
 #grid {
-  width: 70%;
-  margin: 100px 0 0 30%;
-  padding: 20px 2%;
+  width: 100%;
+  margin: 0;
+  padding: 2%;
   -o-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -131,7 +131,7 @@
   margin-top: -50%;
 }
 
-.bg-5 {
+.bg-1 {
   background: #d2b55b
 }
 .bg-4 {
@@ -143,6 +143,6 @@
 .bg-2 {
   background: #Daa520
 }
-.bg-1 {
+.bg-5 {
   background: #cc7722
 }
