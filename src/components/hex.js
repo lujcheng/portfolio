@@ -164,18 +164,25 @@ export default function Hex() {
         </a>
       </li>
       <li>
-        <a href="#item15">
-          <div class="hexagon">
-            <img src="images/15.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+        <a href="#item1">
+          <div class="hexagon bg-5">
+            <h4>Source Control Management</h4>
           </div>
         </a>
       </li>
       <li>
         <a href="#item15">
-          <div class="hexagon">
-            <img src="images/15.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-5">
+            <img className='icon' src='./git-original.svg'  alt='git' />  
+            <div class="overlay">Git</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item15">
+          <div class="hexagon bg-5">
+            <img className='icon' src='./github-original.svg'  alt='github' />
+            <div class="overlay">GitHub</div>
           </div>
         </a>
       </li>
