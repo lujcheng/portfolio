@@ -88,17 +88,17 @@ export default function Hex() {
       </li>
       <li>
         <a href="#item11">
-          <div class="hexagon">
-            <img src="images/11.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-3">
+            <img className='icon' src='./postgresql-original.svg'  alt='psql' />
+            <div class="overlay">PostgreSQL</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item12">
-          <div class="hexagon">
-            <img src="images/12.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-3">
+            <img className='icon' src='./mongodb-original.svg'  alt='mongodb' />
+            <div class="overlay">MongoDB</div>
           </div>
         </a>
       </li>
