@@ -124,17 +124,49 @@ export default function Hex() {
         </a>
       </li>
       <li>
+        <a href="#item1">
+          <div class="hexagon bg-4">
+            <h4>Languages</h4>
+          </div>
+        </a>
+      </li>
+      <li>
         <a href="#item13">
-          <div class="hexagon">
-            <img src="images/13.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-4">
+            <img className='icon' src='./javascript-original.svg'  alt='javascript' />
+            <div class="overlay">Javascript</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item14">
+          <div class="hexagon bg-4">
+            <img className='icon' src='./html5-original.svg'  alt= 'html5' />
+            <div class="overlay">HTML5</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item15">
+          <div class="hexagon bg-4">
+            <img className='icon' src='./ruby-original.svg'  alt= 'Ruby' />
+            <div class="overlay">Ruby</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item15">
+          <div class="hexagon bg-4">
+            <img className='icon' src='./css3-original.svg'  alt='CSS' />
+               
+            <div class="overlay">CSS</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item15">
           <div class="hexagon">
-            <img src="images/14.jpg" alt="Lorem Ipsum"/>
+            <img src="images/15.jpg" alt="Lorem Ipsum"/>
             <div class="overlay"></div>
           </div>
         </a>
