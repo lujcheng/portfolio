@@ -55,33 +55,34 @@ export default function Hex() {
       </li>
       <li>
         <a href="#item7">
-          <div class="hexagon">
-            <img src="images/7.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./docker-original.svg'  alt='docker' /> 
+            <div class="overlay">Docker</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item8">
-          <div class="hexagon">
-            <img src="images/8.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./mocha-plain.svg'  alt='mocha' />
+                
+            <div class="overlay">Mocha</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item9">
-          <div class="hexagon">
-            <img src="images/9.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./socket-io.svg'  alt='socket-io'/>  
+            <div class="overlay">Socket.io</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item10">
-          <div class="hexagon">
-            <img src="images/10.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./babel-original.svg'  alt='babel' /> 
+            <div class="overlay">Babel</div>
           </div>
         </a>
       </li>
