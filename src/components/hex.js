@@ -166,7 +166,7 @@ export default function Hex() {
       <li>
         <a href="#item1">
           <div className="hexagon bg-5">
-            <h4>Source Control Management</h4>
+            <h4>Source Control</h4>
           </div>
         </a>
       </li>

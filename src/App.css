@@ -47,7 +47,8 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: #c4bf62; }
+  background: #c4bf62;
+  font-family: 'Comfortaa', cursive; }
   #banner img {
     width: 100%;
     align-content: center; }
