@@ -119,3 +119,15 @@
 #grid li:hover .hexagon {
   opacity: 0.6;
 }
+
+#grid li .hexagon h4 {
+  position: absolute;
+  padding: 1em;
+  left:-100%;
+  right:-100%;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  top: 50%;
+  margin-top: -50%;
+}

@@ -3,6 +3,13 @@ import React from 'react'
 export default function Hex() {
   return (
     <ul id="grid" class="clr">
+       <li>
+        <a href="#item1">
+          <div class="hexagon bg-1">
+            <h4>Front End Web</h4>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="#item1">
           <div class="hexagon bg-1">
@@ -25,6 +32,13 @@ export default function Hex() {
           <div class="hexagon bg-1">
             <img className='icon' src='./sass-original.svg'  alt='sass' />   
             <div class="overlay">Sass</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item1">
+          <div class="hexagon bg-2">
+            <h4>Back End Web</h4>
           </div>
         </a>
       </li>
@@ -83,6 +97,13 @@ export default function Hex() {
           <div class="hexagon bg-2">
             <img className='icon' src='./babel-original.svg'  alt='babel' /> 
             <div class="overlay">Babel</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#item1">
+          <div class="hexagon bg-3">
+            <h4>Database</h4>
           </div>
         </a>
       </li>
