@@ -30,26 +30,26 @@ export default function Hex() {
       </li>
       <li>
         <a href="#item4">
-          <div class="hexagon">
+          <div class="hexagon bg-2">
             <img className='icon' src='./nodejs-original.svg'  alt='node' />
                 
-            <div class="overlay"></div>
+            <div class="overlay">Node</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item5">
-          <div class="hexagon">
-            <img src="images/5.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./rails-original-wordmark.svg'  alt='rails' />
+            <div class="overlay">Rails</div>
           </div>
         </a>
       </li>
       <li>
         <a href="#item6">
-          <div class="hexagon">
-            <img src="images/6.jpg" alt="Lorem Ipsum"/>
-            <div class="overlay"></div>
+          <div class="hexagon bg-2">
+            <img className='icon' src='./express-original.svg'  alt='express' />
+            <div class="overlay">Express</div>
           </div>
         </a>
       </li>
