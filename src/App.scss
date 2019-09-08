@@ -86,13 +86,14 @@
 }
 
 #navbar {
+  margin: 0;
   width: 100%;
   span {
     text-align: center;
-
   }
   .headers {
     font-family: 'Comfortaa', cursive;
+    text-align: center;
     font-size: 1.5em;
     color: white;
   }
