@@ -73,7 +73,9 @@
   margin: 0;
   width: 100%; }
   #navbar span {
-    text-align: center; }
+    width: 100%;
+    text-align: center;
+    padding: 0; }
   #navbar .headers {
     font-family: 'Comfortaa', cursive;
     text-align: center;
