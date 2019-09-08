@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <div className="dropdown">
         <button type="button" className="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          hamburger
+          <i class="fas fa-bars"></i>
         </button>
         <div className="dropdown-menu">
           <a className='dropdown-item' href='#'>About Me</a>
