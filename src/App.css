@@ -59,14 +59,14 @@
       align-content: center; }
 
 #about {
-  padding: 7%;
+  padding: 3%;
   font-family: 'Comfortaa', cursive; }
 
 #proskires {
   width: 100%;
   height: auto;
   margin: 0;
-  padding: 0;
+  padding: 3%;
   background: #5c635f; }
 
 #navbar {
@@ -93,3 +93,6 @@
   height: 100vh; }
   #main .row {
     width: 100%; }
+
+.fa-bars {
+  padding: 0.5em; }

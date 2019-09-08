@@ -73,7 +73,7 @@
 }
 
 #about {
-  padding: 7%;
+  padding: 3%;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -81,7 +81,7 @@
   width: 100%;
   height: auto;
   margin: 0;
-  padding: 0;
+  padding: 3%;
   background: rgb(92, 99, 95)
 }
 
@@ -115,14 +115,19 @@
     width: 100%;
   }
 }
-// .hexagon {
+
+.fa-bars {
+  padding: 0.5em;
+}
+
+// .hex {
 //   width: 100px;
 //   height: 55px;
 //   background: #e5bb0a;
 //   position: absolute;
 //   z-index: 0;
 // }
-// .hexagon:before {
+// .hex:before {
 //   content: "";
 //   position: absolute;
 //   top: -25px;
@@ -133,7 +138,7 @@
 //   border-right: 50px solid transparent;
 //   border-bottom: 25px solid #e5bb0a;
 // }
-// .hexagon:after {
+// .hex:after {
 //   content: "";
 //   position: absolute;
 //   bottom: -25px;

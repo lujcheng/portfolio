@@ -15,7 +15,7 @@ class App extends Component {
         </div>
         <div className='row' id='main'>
           <About />
-          <div id='proskires' className='col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+          <div id='proskires' className='col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12'>
             <ProSkiRes />
           </div>
         </div>
