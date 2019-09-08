@@ -62,7 +62,7 @@
     top: 25%;
     .row {
       img {
-        width: auto;
+        max-width: 90vw;
         height: 50vh;
         align-content: center;
       }
@@ -118,6 +118,15 @@
 
 .fa-bars {
   padding: 0.5em;
+}
+$notification-confirm: hsla(101, 72%, 37%, 1);
+
+@function set-notification-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
 }
 
 // .hex {

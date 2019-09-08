@@ -54,7 +54,7 @@
     position: relative;
     top: 25%; }
     #banner .container .row img {
-      width: auto;
+      max-width: 90vw;
       height: 50vh;
       align-content: center; }
 
