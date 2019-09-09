@@ -111,8 +111,15 @@ html {
   width: 100%;
   font-size: 2.5vw;
   line-height: 6vh; }
+  @media screen and (min-width: 768px) {
+    #contact {
+      font-size: 1.5em; } }
   #contact h5 {
+    font-size: 2.5vw;
     margin-top: 5vh; }
+    @media screen and (min-width: 768px) {
+      #contact h5 {
+        font-size: 1.5em; } }
   #contact i {
     margin-right: 4vw;
     color: black; }

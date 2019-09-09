@@ -136,17 +136,27 @@ html {
   width: 100%;
   font-size: 2.5vw;
   line-height: 6vh;
+  @media screen and (min-width: 768px) {
+    font-size: 1.5em;
+  }
   p {
 
   }
   h5 {
+    font-size: 2.5vw;
     margin-top: 5vh;
+    @media screen and (min-width: 768px) {
+      font-size: 1.5em;
+    }
   }
     i {
       margin-right: 4vw;
       color: black;
+      @media screen and (min-width: 768px) {
+        margin-right: 1.5em;
   }
 }
+
 
 // .hex {
 //   width: 100px;
