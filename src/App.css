@@ -55,8 +55,8 @@
     top: 25%; }
     #banner .container .row img {
       max-width: 90vw;
-      height: 50vh;
-      align-content: center; }
+      max-height: 50vh;
+      align-self: center; }
 
 #about {
   padding: 3%;
