@@ -11,9 +11,15 @@ class Contact extends Component {
         <p className='col-12'>
           Full-stack Developer
           <br></br>
-          <i class="fab fa-github fa-2x"></i>
-          <i class="fab fa-linkedin fa-2x"></i>
-          <i class="fas fa-file fa-2x"></i>
+          <a href='https://github.com/Renkinjutsu'>
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href='https://www.linkedin.com/in/luccheng'>
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href='https://resume.creddle.io/resume/8i9hdd0b4la'>
+            <i class="fas fa-file fa-2x"></i>
+          </a>
         </p>
       </div>
     )
