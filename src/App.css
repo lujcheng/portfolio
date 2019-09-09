@@ -1,5 +1,8 @@
 @import url(./hex.css);
 @import url(https://fonts.googleapis.com/css?family=The+Girl+Next+Door);
+html {
+  scroll-behavior: smooth; }
+
 .App {
   padding: 0;
   margin: 0;

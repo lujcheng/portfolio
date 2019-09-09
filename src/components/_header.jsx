@@ -8,7 +8,7 @@ class Header extends Component {
           <i class="fas fa-bars fa-2x" ></i>
         </button>
         <div className="dropdown-menu">
-          <a className='dropdown-item' href='#'>About Me</a>
+          <a className='dropdown-item' href='#about'>About Me</a>
           <a className='dropdown-item' href='#'>Projects/Skills</a>
           <a className='dropdown-item' href='#'>Contact Me</a>
         </div>
