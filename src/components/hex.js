@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactFitText from 'react-fittext'
 
 export default function Hex() {
   return (
@@ -6,7 +7,9 @@ export default function Hex() {
        <li>
         <a href="#item1">
           <div className="hexagon bg-1">
-            <h4 id='front-end'>Front <br></br>End <br></br> Web</h4>
+            <ReactFitText>
+              <h4 id='frontend'>Front <br></br>End <br></br> Web</h4>
+            </ReactFitText>
           </div>
         </a>
       </li>
