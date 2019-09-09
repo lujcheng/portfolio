@@ -7,7 +7,7 @@ class Banner extends Component {
     return (
       <div className='container align-items-center'> 
         <div className='row justify-content-center'>
-          <img src='./ebrastij.svg' className='col-md-6 col-sm-12'/>
+          <img src='./ebrastij.svg' className='col-md-6 col-sm-12' alt='avatar'/>
           <div className='col-md-6 col-sm-12 row align-self-center'>
             <div className='typing'>
               <h3 id='name' className='row'>Lucas Cheng</h3>

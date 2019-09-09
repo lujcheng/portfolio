@@ -6,7 +6,7 @@ export default function Hex() {
        <li>
         <a href="#item1">
           <div className="hexagon bg-1">
-            <h4>Front End Web</h4>
+            <h4 id='front-end'>Front <br></br>End <br></br> Web</h4>
           </div>
         </a>
       </li>
@@ -14,7 +14,7 @@ export default function Hex() {
         <a href="#item1">
           <div className="hexagon bg-1">
 
-            <img className='' src='./react-original.svg'  alt='react' />
+            <img className='icon' src='./react-original.svg'  alt='react' />
             <div className="overlay">React</div>
           </div>
         </a>
@@ -141,7 +141,7 @@ export default function Hex() {
       <li>
         <a href="#item14">
           <div className="hexagon bg-4">
-            <img className='icon' src='./html5-original.svg'  alt= 'html5' />
+            <img className='icon' src='./html5-original.svg'  alt='html5' />
             <div className="overlay">HTML5</div>
           </div>
         </a>
@@ -149,7 +149,7 @@ export default function Hex() {
       <li>
         <a href="#item15">
           <div className="hexagon bg-4">
-            <img className='icon' src='./ruby-original.svg'  alt= 'Ruby' />
+            <img className='icon' src='./ruby-original.svg'  alt='Ruby' />
             <div className="overlay">Ruby</div>
           </div>
         </a>

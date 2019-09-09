@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Navbar from './_navbar'
-import Skills from './Skills'
 import Projects from './Projects'
 import Hex from './hex'
 
