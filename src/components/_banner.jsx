@@ -12,7 +12,7 @@ class Banner extends Component {
             <div className='typing'>
               <h3 id='name' className='row'>Lucas Cheng</h3>
               <div className='row'> 
-                <p>I am a: </p>
+                <p>I am a:&ensp;</p>
                 <TypistLoop interval={1000}>
                   
                   {[
