@@ -9,8 +9,8 @@ class Header extends Component {
         </button>
         <div className="dropdown-menu">
           <a className='dropdown-item' href='#about'>About Me</a>
-          <a className='dropdown-item' href='#'>Projects/Skills</a>
-          <a className='dropdown-item' href='#'>Contact Me</a>
+          <a className='dropdown-item' href='#proskires'>Projects/Skills</a>
+          <a className='dropdown-item' href='#contact'>Contact Me</a>
         </div>
     </div>
     )
