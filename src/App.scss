@@ -25,6 +25,11 @@
   position: fixed;
   top: 0;
   right: 0;
+  button {
+    border: 0;
+    margin-top: 1%;
+    width: fit-content;
+  }
 }
 .dropdown-toggle::after {
   opacity: 0;
@@ -118,7 +123,12 @@
 }
 
 .fa-bars {
-  padding: 0.5em;
+  right: 0;
+}
+
+#contact {
+  background: #d8a800;
+  width: 100%;
 }
 
 // .hex {
