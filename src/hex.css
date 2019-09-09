@@ -125,7 +125,7 @@
 
 #grid li .hexagon h4 {
   position: absolute;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   left:-100%;
   right:-100%;
   height: auto;
@@ -134,6 +134,7 @@
   top: 50%;
   margin-top: -30%;
   color: black;
+  text-align: center;
 }
 
 .bg-1 {

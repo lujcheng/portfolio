@@ -7,8 +7,8 @@ export default function Hex() {
        <li>
         <a href="#item1">
           <div className="hexagon bg-1">
-            <ReactFitText>
-              <h4 id='frontend'>Front <br></br>End <br></br> Web</h4>
+            <ReactFitText compressor={0.6}>
+              <h4>Front <br></br>End <br></br> Web</h4>
             </ReactFitText>
           </div>
         </a>
@@ -41,7 +41,9 @@ export default function Hex() {
       <li>
         <a href="#item1">
           <div className="hexagon bg-2">
-            <h4>Back End Web</h4>
+            <ReactFitText compressor={0.6}>
+              <h4>Back End Web</h4>
+            </ReactFitText>
           </div>
         </a>
       </li>
@@ -106,7 +108,9 @@ export default function Hex() {
       <li>
         <a href="#item1">
           <div className="hexagon bg-3">
-            <h4>Database</h4>
+            <ReactFitText compressor={0.7}>
+              <h4>Database</h4>
+            </ReactFitText>
           </div>
         </a>
       </li>
@@ -129,7 +133,9 @@ export default function Hex() {
       <li>
         <a href="#item1">
           <div className="hexagon bg-4">
-            <h4>Languages</h4>
+            <ReactFitText compressor={0.7}>
+              <h4>Languages</h4>
+            </ReactFitText>
           </div>
         </a>
       </li>
@@ -169,7 +175,9 @@ export default function Hex() {
       <li>
         <a href="#item1">
           <div className="hexagon bg-5">
-            <h4>Source Control</h4>
+            <ReactFitText compressor={0.6}>
+              <h4>Source Control</h4>
+            </ReactFitText>
           </div>
         </a>
       </li>
