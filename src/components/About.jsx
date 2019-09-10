@@ -7,7 +7,7 @@ class About extends Component {
         <a name='about'></a>
        
         <p className='col-12'>
-          I've always like to break things down and put them back together again. 
+          I've always liked to break things down and put them back together again. 
         </p>
         <p  className='col-12'>
           It started at an early age with whatever I could get my hands on.
