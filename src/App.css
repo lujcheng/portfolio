@@ -91,9 +91,10 @@ html {
     font-size: 1.4em;
     color: white; }
 
-#skills {
-  padding-left: 4em;
-  padding-right: 4em; }
+#projects {
+  margin-top: 10%; }
+  #projects p {
+    color: white; }
 
 #main {
   width: 100%;

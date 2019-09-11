@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactFitText from 'react-fittext'
 
 class Navbar extends Component {
   render () {
