@@ -5,12 +5,12 @@ class Header extends Component {
     return (
       <div className="dropdown">
         <button type="button" className="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          hamburger
+          <i class="fas fa-bars fa-2x" ></i>
         </button>
         <div className="dropdown-menu">
-          <a className='dropdown-item' href='#'>About Me</a>
-          <a className='dropdown-item' href='#'>Projects/Skills</a>
-          <a className='dropdown-item' href='#'>Contact Me</a>
+          <a className='dropdown-item' href='#about'>About Me</a>
+          <a className='dropdown-item' href='#proskires'>Projects/Skills</a>
+          <a className='dropdown-item' href='#contact'>Contact Me</a>
         </div>
     </div>
     )

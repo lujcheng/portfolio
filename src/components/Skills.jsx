@@ -4,46 +4,110 @@ class Skills extends Component {
     return (
       <div className='container' id='skills'> 
         <div className='row'>
-          <h4 className='col-5 padded'>Web Front End</h4>
+          {/* <h4 className='col-5 padded'>Web Front End</h4> */}
           <div className='row container justify-content-start'>
-            <img className='col-3 icon' src='./react-original.svg'  alt='react' />
-            <img className='col-3 icon' src='./jquery-original.svg'  alt='jquery' />
-            <img className='col-3 icon' src='./sass-original.svg'  alt='sass' /> 
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon float-left' src='./react-original.svg'  alt='react' />
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./jquery-original.svg'  alt='jquery' />  
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./sass-original.svg'  alt='sass' />   
+            </div>
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Web Back End</h4>
-          <div className='row container justify-content-start'>
-
-            <img className='col-3 icon' src='./nodejs-original.svg'  alt='node' />
-            <img className='col-3 icon' src='./rails-original-wordmark.svg'  alt='rails' />
-            <img className='col-3 icon' src='./express-original.svg'  alt='express' />
-            <img className='col-3 icon' src='./docker-original.svg'  alt='docker' /> 
-            <img className='col-3 icon' src='./mocha-plain.svg'  alt='mocha' />
-            <img className='col-3 icon' src='./socket-io.svg'  alt='socket-io'/>
-            <img className='col-3 icon' src='./babel-original.svg'  alt='babel' /> 
+          {/* <h4 className='col-5  padded'>Web Back End</h4> */}
+          <div className='row container justify-content-start grid'>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./nodejs-original.svg'  alt='node' />
+                
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./rails-original-wordmark.svg'  alt='rails' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./express-original.svg'  alt='express' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./docker-original.svg'  alt='docker' /> 
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./mocha-plain.svg'  alt='mocha' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./socket-io.svg'  alt='socket-io'/>
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./babel-original.svg'  alt='babel' /> 
+               
+            </div>
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Databases</h4>
+          {/* <h4 className='col-5  padded'>Databases</h4> */}
           <div className='row container justify-content-start'>
-            <img className='col-3 icon' src='./postgresql-original.svg'  alt='psql' />
-            <img className='col-3 icon' src='./mongodb-original.svg'  alt='mongodb' />
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./postgresql-original.svg'  alt='psql' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./mongodb-original.svg'  alt='mongodb' />
+               
+            </div>
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Languages</h4>
+          {/* <h4 className='col-5  padded'>Languages</h4> */}
           <div className='row container justify-content-start'>
-            <img className='col-3 icon' src='./javascript-original.svg'  alt='javascript' />
-            <img className='col-3 icon' src='./html5-original.svg'  alt= 'html5' />
-            <img className='col-3 icon' src='./css3-original.svg'  alt='CSS' />
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./javascript-original.svg'  alt='javascript' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./html5-original.svg'  alt= 'html5' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./css3-original.svg'  alt='CSS' />
+               
+            </div>
           </div>
         </div>
         <div className='row'>
-          <h4 className='col-5  padded'>Source Control Management</h4>
+          {/* <h4 className='col-5  padded'>Source Control Management</h4> */}
           <div className='row container justify-content-start'>
-            <img className='col-3 icon' src='./git-original.svg'  alt='git' />
-            <img className='col-3 icon' src='./github-original.svg'  alt='github' />
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./git-original.svg'  alt='git' />
+               
+            </div>
+            <div className='container icon-bg'>
+              <div className='hexagon float-left'></div>
+              <img className='icon' src='./github-original.svg'  alt='github' />
+               
+            </div>
           </div>
         </div>
       </div>

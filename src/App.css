@@ -1,3 +1,8 @@
+@import url(./hex.css);
+@import url(https://fonts.googleapis.com/css?family=The+Girl+Next+Door);
+html {
+  scroll-behavior: smooth; }
+
 .App {
   padding: 0;
   margin: 0;
@@ -19,6 +24,10 @@
   position: fixed;
   top: 0;
   right: 0; }
+  .dropdown button {
+    border: 0;
+    margin-top: 1%;
+    width: fit-content; }
 
 .dropdown-toggle::after {
   opacity: 0; }
@@ -42,62 +51,78 @@
 
 #banner {
   width: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  background: rgba(96, 247, 169, 0.2); }
-  #banner img {
-    width: 100%;
-    align-content: center; }
-  #banner span {
-    width: 100%;
-    margin: 0; }
-    #banner span #name {
-      text-align: left;
-      width: 100%; }
-    #banner span span {
-      margin: 0; }
-      #banner span span p {
-        margin: 0;
-        padding: 0;
-        flex: 1; }
-      #banner span span .Typist {
-        width: 100%;
-        flex: 1; }
+  background: #d8a800;
+  font-family: 'Comfortaa', cursive;
+  position: relative; }
+  #banner .container {
+    position: relative;
+    top: 25%; }
+    #banner .container .row img {
+      max-width: 90vw;
+      max-height: 50vh;
+      align-self: center;
+      margin-bottom: 1%; }
 
-#about {
-  padding-left: 4em;
-  padding-right: 4em; }
+.text {
+  padding: 3%;
+  font-family: 'Comfortaa', cursive;
+  height: 100vh; }
 
 #proskires {
   width: 100%;
+  height: auto;
   margin: 0;
-  padding: 0; }
+  padding: 3%;
+  background: #5c635f; }
 
 #navbar {
-  width: 100%;
-  background: rgba(26, 31, 12, 0.2); }
+  margin: 0;
+  width: 100%; }
+  #navbar span {
+    width: 100%;
+    text-align: center;
+    padding: 0; }
   #navbar .headers {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em; }
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    color: white; }
 
 #skills {
   padding-left: 4em;
   padding-right: 4em; }
 
-.icon {
-  max-height: 6em; }
+#main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+  #main .row {
+    width: 100%; }
 
-#name {
-  stroke: #000;
-  stroke-width: 1;
-  stroke-dasharray: 100px;
-  stroke-dashoffset: 100px;
-  animation-name: draw;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  animation-timing-function: linear; }
+.fa-bars {
+  right: 0; }
 
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0; } }
+#contact {
+  background: #d8a800;
+  width: 100%;
+  font-size: 2.5vw;
+  line-height: 6vh; }
+  @media screen and (min-width: 768px) {
+    #contact {
+      font-size: 1.5em; } }
+  #contact h5 {
+    font-size: 2.5vw;
+    margin-top: 5vh; }
+    @media screen and (min-width: 768px) {
+      #contact h5 {
+        font-size: 1.5em; } }
+  #contact i {
+    margin-right: 4vw;
+    color: black; }
+    @media screen and (min-width: 768px) {
+      #contact i {
+        margin-right: 1.5em; } }

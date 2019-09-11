@@ -5,14 +5,14 @@ import TypistLoop from 'react-typist-loop'
 class Banner extends Component {
   render () {
     return (
-      <div className='container'> 
-        <div className='row'>
-          <img src='./ebrastij.svg' className='col-md-6 col-sm-12'/>
+      <div className='container align-items-center'> 
+        <div className='row justify-content-center'>
+          <img src='./ebrastij.svg' className='col-md-6 col-sm-12' alt='avatar'/>
           <div className='col-md-6 col-sm-12 row align-self-center'>
             <div className='typing'>
               <h3 id='name' className='row'>Lucas Cheng</h3>
               <div className='row'> 
-                <p>I am a: </p>
+                <p>I am a:&ensp;</p>
                 <TypistLoop interval={1000}>
                   
                   {[
