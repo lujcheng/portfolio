@@ -24,8 +24,7 @@ class Skills extends Component {
         </ReactFitText>
         <ReactFitText compressor= {2}>
           <p>
-            This is a chatting app built with websockets linked 
-            <a href='https://github.com/Renkinjutsu/Chatty-App'>here</a>.
+            This is a chatting app built with websockets linked <a href='https://github.com/Renkinjutsu/Chatty-App'>here</a>.
             <br></br>
           </p>
         </ReactFitText>
