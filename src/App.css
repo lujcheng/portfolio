@@ -92,6 +92,8 @@ html {
     color: white; }
     #navbar .headers:hover {
       color: #d8a800; }
+      #navbar .headers:hover.link:hover {
+        color: #7cb342; }
 
 #projects {
   margin-top: 10%; }
@@ -99,6 +101,8 @@ html {
     color: white; }
     #projects p a {
       color: #d8a800; }
+      #projects p a:hover {
+        color: #7cb342; }
 
 #main {
   width: 100%;

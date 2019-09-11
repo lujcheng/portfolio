@@ -12,7 +12,7 @@ class Skills extends Component {
         </ReactFitText>
         <ReactFitText compressor= {2}>
           <p>
-            I've also built a UI for SQL data in Entity-Relationship-Diagram format that can be queried hosted <a href='http://myschemaql.netlify.com'>here</a> and linked <a href='https://github.com/Renkinjutsu/My-Schema-QL'>here</a>. 
+            I've also built a UI for SQL data in Entity-Relationship-Diagram format that can be queried hosted <a href='http://myschemaql.netlify.com'>here</a> and linked <a href='https://github.com/Renkinjutsu/My-Schema-QL' className='link'>here</a>. 
             <br></br>
           </p>
         </ReactFitText>

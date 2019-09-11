@@ -111,6 +111,9 @@ html {
     color: white;
     &:hover {
       color: #d8a800;
+      &.link:hover {
+        color: #7cb342;
+      }
     }
   }
 }
@@ -121,6 +124,9 @@ html {
     color: white;
     a {
       color: #d8a800;
+      &:hover {
+        color: #7cb342;
+      }
     }
   }
 }
@@ -130,7 +136,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-
+  
   .row {
     width: 100%;
   }
@@ -149,7 +155,7 @@ html {
     font-size: 1.5em;
   }
   p {
-
+    
   }
   h5 {
     font-size: 2.5vw;
@@ -158,11 +164,11 @@ html {
       font-size: 1.5em;
     }
   }
-    i {
-      margin-right: 4vw;
-      color: black;
-      @media screen and (min-width: 768px) {
-        margin-right: 1.5em;
-      }
+  i {
+    margin-right: 4vw;
+    color: black;
+    @media screen and (min-width: 768px) {
+      margin-right: 1.5em;
+    }
   }
 }
