@@ -87,9 +87,7 @@ html {
   font-family: 'Comfortaa', cursive;
   height: 100vh;
 }
-#about {
-  padding: 3%;
-}
+
 #proskires {
   width: 100%;
   height: auto;
@@ -111,6 +109,9 @@ html {
     text-align: center;
     font-size: 1.4em;
     color: white;
+    &:hover {
+      color: #d8a800;
+    }
   }
 }
 
@@ -118,6 +119,9 @@ html {
   margin-top: 10%;
   p {
     color: white;
+    a {
+      color: #d8a800;
+    }
   }
 }
 
