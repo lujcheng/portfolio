@@ -71,9 +71,13 @@ html {
   font-family: 'Comfortaa', cursive;
   height: 100vh; }
 
+#about p {
+  margin-top: 10%;
+  line-height: 5vh; }
+
 #proskires {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   margin: 0;
   padding: 3%;
   background: #5c635f; }
@@ -98,7 +102,9 @@ html {
 #projects {
   margin-top: 10%; }
   #projects p {
-    color: white; }
+    padding: 2vh 0 2vh 0;
+    color: white;
+    line-height: 3vh; }
     #projects p a {
       color: #d8a800; }
       #projects p a:hover {
