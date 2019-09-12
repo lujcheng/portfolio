@@ -16,9 +16,12 @@ class Banner extends Component {
                 <TypistLoop interval={1000}>
                   
                   {[
-                    'Problem Solver',
                     'Developer',
-                    'Good Person',
+                    'Problem Solver',
+                    'Physiotherapist',
+                    'Hard-worker',
+                    'Full-stack Developer',
+                    'Leader'
                   ].map(text =>
                     <Typist  avgTypingSpeed={40} key={text} startDelay={1000}>{text}
                     <Typist.Delay ms={1000} />
