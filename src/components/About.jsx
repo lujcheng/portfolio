@@ -4,7 +4,7 @@ import ReactFitText from 'react-fittext'
 class About extends Component {
   render () {
     return (
-      <div id='about' className='text container col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12' > 
+      <div id='about' className='text container col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12' > 
         <a name='about'></a>
         <div className='container'>
           <ReactFitText compressor={2.5}>
