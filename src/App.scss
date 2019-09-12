@@ -88,10 +88,10 @@ html {
   height: 100vh;
 }
 #about {
-  height: min-content;
+  min-height: 100vh;
   margin-top: 5vh;
+  height: fit-content;
   .container {
-    min-height: 100vh;
     p {
       padding: 4vh 0 4vh 0;
       line-height: 1.5em;

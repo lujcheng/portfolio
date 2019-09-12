@@ -72,13 +72,12 @@ html {
   height: 100vh; }
 
 #about {
-  height: min-content;
-  margin-top: 5vh; }
-  #about .container {
-    min-height: 100vh; }
-    #about .container p {
-      padding: 4vh 0 4vh 0;
-      line-height: 1.5em; }
+  min-height: 100vh;
+  margin-top: 5vh;
+  height: fit-content; }
+  #about .container p {
+    padding: 4vh 0 4vh 0;
+    line-height: 1.5em; }
 
 #proskires {
   width: 100%;

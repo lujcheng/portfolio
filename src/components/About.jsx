@@ -7,17 +7,17 @@ class About extends Component {
       <div id='about' className='text container col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12' > 
         <a name='about'></a>
         <div className='container'>
-          <ReactFitText compressor={2.5}>
+          <ReactFitText compressor={2.7}>
             <p>
               I'm Lucas Cheng, a full-stack developer based in Toronto.
             </p>
           </ReactFitText>
-          <ReactFitText compressor={2.5}>
+          <ReactFitText compressor={2.7}>
           <p>
               Before I became a developer I was licensed Physical Therapist, working with a mixed caseload of patients. When I discovered coding I was drawn to the possibilities and found a tech bootcamp called Lighthouse Labs. I learned about cutting edge tech stacks, best coding practices, and met alot of passionate people that work in the field.
           </p>
           </ReactFitText>
-          <ReactFitText compressor={2.5}>
+          <ReactFitText compressor={2.7}>
           <p>
             Now I'm looking for opportunities to expand on my knowledge, and work with great teams. I thrive in challenging environments and I love learning new languages/stacks and building great projects.
           </p>
