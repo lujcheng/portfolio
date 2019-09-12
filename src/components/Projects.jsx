@@ -28,6 +28,12 @@ class Skills extends Component {
             <br></br>
           </p>
         </ReactFitText>
+        <ReactFitText compressor= {2}>
+          <p>
+            For more visit my GitHub <a href='https://github.com/Renkinjutsu'>here</a>.
+            <br></br>
+          </p>
+        </ReactFitText>
       </div>
     )
   }
