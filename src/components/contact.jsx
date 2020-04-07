@@ -19,7 +19,7 @@ class Contact extends Component {
             <a href='https://www.linkedin.com/in/luccheng'>
               <i class="fab fa-linkedin fa-2x"></i>
             </a>
-            <a href='https://resume.creddle.io/resume/8i9hdd0b4la'>
+            <a href='https://resume.creddle.io/resume/6kv0z12yze3'>
               <i class="fas fa-file fa-2x"></i>
             </a>
           </p>
