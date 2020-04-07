@@ -16,7 +16,7 @@ class Navbar extends Component {
           </a>
         </span>
         <span className='col-4'>
-          <a className='headers link' href='https://resume.creddle.io/resume/8i9hdd0b4la' >
+          <a className='headers link' href='https://resume.creddle.io/resume/6kv0z12yze3' >
             Resume
           </a>
         </span>
